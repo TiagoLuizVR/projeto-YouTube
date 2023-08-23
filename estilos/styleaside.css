@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #717171;
+    border-radius: 5px;
+}
+
+aside {
+    position: fixed;
+    top: 55px;
+    height: calc(100% - 55px);
+    width: 220px;
+    background-color: #0F0F0F;
+    overflow-y: scroll;
+}
+.botoesaside {
+    display: inline-block;
+    width: 204px;
+    height: 40px;
+    border-radius: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+.botoesaside:hover {
+    background-color: #272727;
+}
+.iconaside {
+    position: relative;
+    top: 8px;
+    margin: 0px 20px 0px 10px;
+}
+hr {
+    margin: 10px 0px;
+}
