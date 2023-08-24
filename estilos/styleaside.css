@@ -12,9 +12,10 @@ aside {
     position: fixed;
     top: 55px;
     height: calc(100% - 55px);
-    width: 220px;
+    width: 240px;
     background-color: #0F0F0F;
     overflow-y: scroll;
+    padding-right: 3px;
 }
 .botoesaside {
     display: inline-block;
@@ -26,15 +27,45 @@ aside {
     text-decoration: none;
     color: white;
     font-size: 14px;
+    margin: 0px 12px;
 }
 .botoesaside:hover {
     background-color: #272727;
 }
-.iconaside {
+.iconaside, .imgaside {
     position: relative;
     top: 8px;
     margin: 0px 20px 0px 10px;
 }
-hr {
+.linksfinal > a {
+    font-size: 13px;
+    color: #AAAAAA;
+    text-decoration: none;
+    white-space: pre;
+    font-weight: 600;
+}
+.linksfinal {
     margin: 10px 0px;
+    padding: 0px 24px;
+}
+#cop {
+    font-size: 12px;
+    color: #717171;
+    padding: 10px 0px 18px 24px;
+}
+aside h1 {
+    font-size: 16px;
+    color: #F1F1F1;
+    padding: 6px 12px 4px 24px;
+}
+.imgaside {
+    width: 24px;
+}
+.useraside {
+    border-radius: 50%;
+    width: 24px;
+}
+aside > div > div {
+    border-bottom: 1px solid #272727;
+    padding: 10px 0px;
 }
