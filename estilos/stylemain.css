@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+#container {
+    display: grid;
+    grid-template-columns: 243px calc(100% - 243px);
+    grid-template-rows: 100%;
+    grid-template-areas: "aside main";
+}
+
+main {
+    grid-area: main;
+    height: 100%;
+    width: 100%;
+    background-color: green;
+}

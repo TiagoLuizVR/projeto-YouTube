@@ -7,15 +7,18 @@
     background-color: #717171;
     border-radius: 5px;
 }
-
 aside {
     position: fixed;
     top: 55px;
     height: calc(100% - 55px);
     width: 240px;
     background-color: #0F0F0F;
-    overflow-y: scroll;
     padding-right: 3px;
+    overflow-y: hidden;
+    grid-area: aside;
+}
+aside:hover {
+    overflow-y: scroll;
 }
 .botoesaside {
     display: inline-block;
