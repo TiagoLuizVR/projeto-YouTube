@@ -13,7 +13,6 @@ aside {
     height: calc(100% - 55px);
     width: 240px;
     background-color: #0F0F0F;
-    padding-right: 3px;
     overflow-y: hidden;
     grid-area: aside;
 }
@@ -71,4 +70,5 @@ aside h1 {
 aside > div > div {
     border-bottom: 1px solid #272727;
     padding: 10px 0px;
+    width: 229px;
 }
